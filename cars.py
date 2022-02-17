@@ -3,11 +3,11 @@ import numpy as np
 from datetime import datetime, timedelta, date
 
 
-'''1. Клиенты у которых Mitsubishi или Renault
-2. Клиенты у которых более двух машин
-3. Машины не старше 5 лет
-4. Которые были более 2-х раз
-5. Последний раз были не позднее 3-х месяцев назад'''
+'''1. Clients who have Mitsubishi or Renault
+2. Clients who have more than 2 cars
+3. Cars no older than 5 years
+4. Clients who visited more than twice 
+5. Clients who visited our store no longer than 3 months ago'''
 
 
 def old(cell):
